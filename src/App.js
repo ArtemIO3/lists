@@ -3,6 +3,7 @@ import './App.css';
 import { MyList } from './components/MyList/MyList';
 import { Navigation } from './components/Navigation/Navigation';
 import { Gallery } from './components/Gallery/Gallery';
+import {User} from './components/User/User';
 
 function App() {
   return (
@@ -10,8 +11,8 @@ function App() {
 <MyList/>
 <Navigation/>
 <Gallery/>
+<User/>
     </div>
   );
 }
-
 export default App;
